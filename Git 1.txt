@@ -1,0 +1,47 @@
+git init / para dar iniciar un seguimiento de los archivos. 
+git add / para hacer un seguimiento para pasarlo al staging area/area de ensayo.
+git commit / trasladar el archivo al repoitorio para un respaldo. 
+
+git status -s / nos da una constancia de todos los archivos que tenemos en el archivo.
+
+
+* PARA HACER UN SEGUIMIENTO DE UN ARCHIVO EN CONCRETO
+
+git add index.html
+
+*ACTUALIZAMOS 
+
+git status -s y el archivo para al area de staging. 
+
+*PARA UNA HACER UNA INSTANTANEA
+
+git commit -m "primera instanacia realizada"
+
+-------------------------*MODIFICAMOS LA CONSOLA UNA VEZ MAS---------------------------------
+
+git status -s - para ver como esta 
+
+git add index.html 
+
+git commit -m "segunda modificacion"
+
+
+--------------------------*PARA VER LOS COMMITS HECHOS*--------------------------------------
+ 
+git log --oneline
+
+----------------------*PARA BORRAR LOS CAMBIOS HECHOS*--------------------------------------
+
+
+1. con los primeros 7 digitos a la que queremos volver
+
+git reset --hard 98971c8
+
+"C:\Users\meryd\OneDrive\Escritorio\JS\Enlances\index.html"
+
+
+
+
+
+
+
